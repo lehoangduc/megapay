@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.16.0",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.0",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "swig": "^1.4.2"
+  }
+}
