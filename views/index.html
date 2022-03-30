@@ -240,6 +240,11 @@
           data: JSON.stringify(params),
           contentType: 'application/json',
           success: function (res) {
+            if (res.redirect_url) {
+              window.location = res.redirect_url
+              return
+            }
+            
             const { domain, firstName, lastName } = res;
             const { type: payType, bank: bankCode } = getPayTypes(
               params.method
